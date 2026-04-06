@@ -1,0 +1,30 @@
+h1 {
+    background-color: #004643;
+    color: #FAF4D3;
+    font-family: coolFont;
+    text-align: center;
+    margin: -8px;
+    }
+h2 {
+    color: #0c1618;
+    font-family: coolFont;
+}
+p {
+    font-family: coolFont;
+    font-size:xx-large;
+    
+}
+body {
+    background-color: #FAF4D3;
+}
+@font-face {
+    font-family: coolFont;
+    src:url(ShareTech-Regular.ttf)
+}
+.red {
+    color: red;
+}
+.border {
+    border-style: dotted;
+    border-width: 10px;
+}
