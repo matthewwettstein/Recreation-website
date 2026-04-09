@@ -16,15 +16,39 @@ p {
 }
 body {
     background-color: #FAF4D3;
+    margin: 0;
+    padding: 2%;
 }
 @font-face {
     font-family: coolFont;
     src:url(ShareTech-Regular.ttf)
 }
-.red {
+.redText {
     color: red;
 }
 .border {
     border-style: dotted;
     border-width: 10px;
+    padding: 2%;
+}
+.red {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 5px;
+    display:inline-block;
+}
+.green {
+    width: 100px;
+    height: 100px;
+    background-color:green;
+    margin: 5px;
+    display:inline-block;
+}
+.blue {
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    margin: 5px;
+    display:inline-block;
 }
